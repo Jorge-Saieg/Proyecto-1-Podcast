@@ -1,0 +1,24 @@
+.entrevistas {
+	margin-top: 42px;
+	display: flex;
+	flex-direction: column;
+
+	img {
+		width: 100%;
+	}
+
+	@media screen and (min-width: 769px) {
+		h2 {
+			font-size: 48px;
+			margin-left: 200px;
+			margin-bottom: 36px;
+			width: 100%;
+		}
+
+		flex-flow: row wrap;
+
+		img {
+			width: 33.3333%;
+		}
+	}
+}

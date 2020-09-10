@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
+@import "./partials/header";
+@import "./partials/descripcion";
+@import "./partials/episodios";
+@import "./partials/nosotros";
+@import "./partials/entrevistas";
+@import "./partials/topicos";
+@import "./partials/novedades";
+@import "./partials/footer";
+
+html {
+	scroll-behavior: smooth;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: "IBM Plex Mono", monospace;
+	color: #060a24;
+}
+
+h1,
+h2 {
+	font-family: "IBM Plex Sans", sans-serif;
+	font-weight: 500;
+	font-size: 36px;
+	margin: 0px 16px;
+}
+
+.punto {
+	color: #0000ec;
+}
+
+button {
+	width: 288px;
+	height: 48px;
+	background-color: #00f3bb;
+	font-family: "IBM Plex Mono", monospace;
+	font-weight: 500;
+	font-size: 18px;
+	border: none;
+	margin: 20px auto 20px;
+	&:hover {
+		background-image: linear-gradient(270deg, #0000fe 0%, #00f0b8 100%);
+		color: white;
+	}
+	&:focus {
+		outline: none;
+	}
+}
+
+img {
+	max-width: 100%;
+}

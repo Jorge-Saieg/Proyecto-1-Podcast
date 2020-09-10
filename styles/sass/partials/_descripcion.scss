@@ -1,0 +1,46 @@
+.descripcion {
+	padding-top: 44px;
+	display: flex;
+	flex-direction: column;
+
+	h1 {
+		margin-top: 30px;
+	}
+	p {
+		margin: 16px;
+		font-size: 14px;
+		line-height: 22px;
+	}
+	margin-bottom: 80px;
+
+	.desktop-text {
+		display: none;
+	}
+
+	@media screen and (min-width: 769px) {
+		padding-top: 80px;
+		padding-left: 200px;
+		h1 {
+			margin: 120px 0px 16px;
+			font-size: 64px;
+		}
+
+		p {
+			margin: 0px;
+			font-size: 16px;
+		}
+		button {
+			height: 56px;
+			width: 226px;
+			margin-left: 0px;
+			margin-top: 56px;
+		}
+
+		.mobile-text {
+			display: none;
+		}
+		.desktop-text {
+			display: block;
+		}
+	}
+}

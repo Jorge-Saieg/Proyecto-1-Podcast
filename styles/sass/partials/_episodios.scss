@@ -1,0 +1,72 @@
+.episodios {
+	h2 {
+		padding-top: 45px;
+		margin-bottom: 21px;
+	}
+	color: white;
+	height: 1203.5px;
+	background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
+	transform: skewY(-5deg);
+
+	.episodios-content {
+		transform: skewY(5deg);
+		display: flex;
+		flex-direction: column;
+	}
+	
+	iframe {
+		height: 232px;
+		overflow: hidden;
+		border: 0;
+		margin: 0px auto 11px;
+		width: 94vw;
+	}
+
+	@media screen and (min-width: 769px) {
+		height: 900px;
+
+		.episodios-content {
+			h2 {
+				margin-left: 200px;
+				padding-top: 86px;
+				padding-bottom: 26px;
+				width: 100%;
+				font-size: 48px;
+			}
+
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: center;
+
+			iframe {
+				height: 232px;
+				width: 450px;
+				margin: 0px 20px 40px 20px;
+			}
+		}
+	}
+
+	@media screen and (min-width: 1350px) {
+		height: 900px;
+
+		.episodios-content {
+			h2 {
+				margin-left: 200px;
+				padding-top: 86px;
+				padding-bottom: 26px;
+				width: 100%;
+				font-size: 48px;
+			}
+
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: center;
+
+			iframe {
+				height: 232px;
+				width: 584px;
+				margin: 0px 36px 72px 36px;
+			}
+		}
+	}
+}

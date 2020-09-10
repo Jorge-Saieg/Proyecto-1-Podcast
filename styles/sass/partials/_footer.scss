@@ -1,0 +1,50 @@
+footer {
+	position: relative;
+	background-color: white;
+	text-align: center;
+	p {
+		padding-top: 24px;
+		padding-bottom: 20px;
+	}
+	.redes {
+		display: flex;
+		justify-content: space-evenly;
+		padding-bottom: 31px;
+	}
+
+	a {
+		text-decoration: none;
+		color: #060a24;
+	}
+
+	.fa-spotify:hover {
+		color: #1db954;
+	}
+	.fa-instagram:hover {
+		color: #c13584;
+	}
+	.fa-twitter:hover {
+		color: #1da1f2;
+	}
+	.fa-facebook:hover {
+		color: #4267b2;
+	}
+	.fa-telegram:hover {
+		color: #0088cc;
+	}
+
+	@media screen and (min-width: 769px) {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		padding: 0px 100px;
+
+		height: 95px;
+
+		.redes {
+			width: 232px;
+			padding: 0px;
+		}
+	}
+}

@@ -1,0 +1,97 @@
+.logo {
+	margin: 10px 16px;
+	width: 24px;
+	height: 24px;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	box-shadow: 0px 0.5px 5px #060a2457;
+	background-color: white;
+	position: fixed;
+	z-index: 10;
+	height: 44px;
+	width: 100%;
+}
+
+.checkbox-menu {
+	display: none;
+}
+.menu {
+	display: none;
+}
+
+.close-menu {
+	display: none;
+}
+
+input:checked ~ .open-menu {
+	display: none;
+}
+
+input:checked ~ .menu,
+input:checked ~ .close-menu {
+	display: block;
+}
+
+.open-menu,
+.close-menu {
+	margin: 10px 19px;
+}
+
+.menu {
+	width: 100%;
+	background-color: #0000ec;
+	padding: 0px 16px 8px;
+	position: absolute;
+	top: 44px;
+	li {
+		list-style: none;
+		line-height: 48px;
+		a {
+			text-decoration: none;
+			color: white;
+		}
+	}
+}
+
+@media screen and (min-width: 769px) {
+	.nav {
+		height: 80px;
+	}
+	.open-menu {
+		display: none;
+	}
+
+	.logo {
+		height: 36px;
+		width: 36px;
+		margin-left: 100px;
+		margin-top: 22px;
+	}
+	.menu {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		padding: 0px;
+		background-color: white;
+		position: relative;
+		top: 0px;
+		margin-right: 100px;
+		width: 482px;
+
+		li a {
+			color: #060a24;
+			padding-left: 48px;
+			&:hover {
+				color: #00f3bb;
+				text-decoration-line: line-through;
+			}
+			&:active {
+				color: rgba(6,10,36,0.56);
+				text-decoration-line: line-through;
+			}
+		}
+	}
+}

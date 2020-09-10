@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./styles/sass/styles.css" />
+		<link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon" />
+		<title>Hello Pale Blue Dot</title>
+	</head>
+	<body>
+		<header class="header">
+			<nav class="nav">
+				<a href="#descripcion"
+					><img src="./images/logo.svg" alt="logo" class="logo"
+				/></a>
+
+				<input
+					type="checkbox"
+					name="menu-botom"
+					id="menu-boton"
+					class="checkbox-menu"
+				/>
+
+				<ul class="menu">
+					<li><a href="#episodios">EPISODIOS</a></li>
+					<li><a href="#nosotros">NOSOTROS</a></li>
+					<li><a href="#entrevistas">ENTREVISTAS</a></li>
+					<li><a href="#topicos">TÓPICOS</a></li>
+				</ul>
+
+				<label for="menu-boton" class="open-menu">☰</label>
+				<label for="menu-boton" class="close-menu">⨉</label>
+			</nav>
+		</header>
+		<main>
+			<section class="descripcion" id="descripcion">
+				<h1>Hello <del>word</del> pale blue dot<span class="punto">.</span></h1>
+				<p class="mobile-text">
+					Un podcast que explora el mundo de la programación. Nuevos episodios,
+					todos los jueves cada 15 días.
+				</p>
+				<p class="desktop-text">
+					El portal de podcasts que explora el mundo de la programación y <br />
+					la tecnología. Nuevos episodios, todos los jueves cada 15 días.
+				</p>
+				<button>CONOCÉ MÁS</button>
+			</section>
+			<section class="episodios" id="episodios">
+				<div class="episodios-content">
+					<h2>Episodios</h2>
+					<iframe
+						src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt"
+					></iframe>
+					<iframe
+						src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby"
+					></iframe>
+					<iframe
+						src="https://open.spotify.com/embed-podcast/show/5JxcIaIkN8zx3Zy7yD9snv"
+					></iframe>
+					<iframe
+						src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn"
+					></iframe>
+				</div>
+			</section>
+
+			<section class="nosotros" id="nosotros">
+				<img src="./images/phone.png" alt="phone" />
+
+				<div>
+					<h2>De dónde venimos</h2>
+					<p>
+						Our posturings, our imagined self-importance, the delusion that we
+						have some privileged position in the Universe, are challenged by
+						this point of pale light. <br />
+						<br />
+						Our planet is a lonely speck in the great enveloping cosmic dark. In
+						our obscurity, in all this vastness, there is no hint that help will
+						come from elsewhere to save us from ourselves.
+					</p>
+				</div>
+			</section>
+			<section class="entrevistas" id="entrevistas">
+				<h2>Invitadas/os estelares</h2>
+				<img src="./images/grace-hopper.png" alt="grace-hopper" />
+				<img src="./images/Katie-Bouman.png" alt="Katie-Bouman" />
+				<img src="./images/Margaret_Hamilton.png" alt="Margaret_Hamilton" />
+				<img
+					src="./images/An-E.R.A.Univac-1103-computer-in-the-1950s.png"
+					alt="Univac 1103"
+				/>
+				<img
+					src="./images/Computer-operators-with-an-Eniac-the-world’s-first-programmable-general-purpose-computer.png"
+					alt="Eniac"
+				/>
+				<img src="./images/susan-kare.png" alt="susan-kare" />
+			</section>
+			<section class="topicos" id="topicos">
+				<h2>Algunos de nuestros temas</h2>
+				<div class="icon1 icon">
+					<img src="./images/icon1.svg" alt="icon1" />
+					<p>Trabajo remoto</p>
+				</div>
+
+				<div class="icon2 icon">
+					<img src="./images/icon2.svg" alt="icon2" />
+					<p>Repensando la programación</p>
+				</div>
+
+				<div class="icon3 icon">
+					<img src="./images/icon3.svg" alt="icon3" />
+					<p>Bases del código</p>
+				</div>
+
+				<div class="icon4 icon">
+					<img src="./images/icon4.svg" alt="icon4" />
+					<p>Seguridad informática</p>
+				</div>
+			</section>
+			<section class="novedades">
+				<svg
+					class="novedades-diagonal"
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 100 100"
+					preserveAspectRatio="none"
+				>
+					<polygon fill="white" points="0,0 100,0 0,70" />
+				</svg>
+
+				<h2>¿Querés las últimas novedades?</h2>
+
+				<button>ESCUCHÁ LOS EPISODIOS</button>
+			</section>
+		</main>
+		<footer>
+			<p>© 2019- Hello blue pale dot</p>
+			<div class="redes">
+				<a href="http://spotify.com" target="_blank" title="Spotify"
+					><i class="fab fa-spotify"></i
+				></a>
+				<a href="http://instagram.com" target="_blank" title="Instagram"
+					><i class="fab fa-instagram"></i
+				></a>
+				<a href="http://twitter.com" target="_blank" title="Twitter"
+					><i class="fab fa-twitter"></i
+				></a>
+				<a href="http://facebook.com" target="_blank" title="Facebook"
+					><i class="fab fa-facebook"></i
+				></a>
+				<a href="http://telegram.org" target="_blank" title="Telegram"
+					><i class="fab fa-telegram"></i
+				></a>
+			</div>
+		</footer>
+		<script
+			src="https://kit.fontawesome.com/1e3e9ecb0f.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
